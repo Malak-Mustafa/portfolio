@@ -1,0 +1,144 @@
+body{
+    text-align: center;
+}
+
+#title{
+/*background-color: #30475e;*/
+background-image: linear-gradient(to left bottom, #f05454, #d64976, #ad4d8a,
+ #7d528d, #515180, #515a80, #55627f, #5d697c, #7e8493, #9ea0ab, #bebec4, #dddddd);
+width: 100%;
+position: relative;
+}
+
+/*Navbar*/
+
+.navbar{
+    padding:0 0 4.5rem ;
+  background-color: #30475e /*#222831*/;
+    padding: 0px;
+   border-bottom: 3px solid #f05586;
+  
+}
+.nav-item{
+    padding: 0 18px;
+  
+}
+.nav-link:hover{
+    color: #f05586;
+}
+nav .active{
+color:  #f05586;
+}
+.nav-link{
+    font-size: 1.2rem;
+   text-transform: uppercase;
+  font-family: 'Superior title';
+     color: #dddddd;
+   
+}
+.custom-toggler.navbar-toggler{
+ margin: 1%;
+ border-color: #dddddd;
+
+}
+.togg-icon{
+    color: #f05586;
+    text-align: center;
+}
+/********intro**********/
+.first-h{
+       font-family: 'Fraunces', serif;
+       color:#dddddd;
+       text-align: center;
+       font-size: 4rem;
+}
+
+.intro{
+       padding:17% 20% ; 
+}
+.my-name{
+    color: #fd4c84;
+}
+.intro-btn{
+    border-color: #fd4c84; 
+    color: #dddddd;
+    font-family: 'Superior title';
+   /* width:15%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    position: absolute;
+    left: 50%;*/
+    margin-top: 5%;
+   
+}
+.intro-btn:hover{
+    border-color: #fd4c84; 
+    background-color: #dddddd;
+    color: #30475e;
+}
+/********about**********/
+#about{
+    background-color: #dddddd;
+    text-align: center;
+   padding: 5% ;
+    color: #30475e ;
+}
+.about-h{
+font-family: 'Fraunces', serif;
+ padding: 3% 0;
+ font-size: 3rem;
+ border-bottom: 2px solid  #fd4c84;
+ padding-bottom: 0;
+ display: inline;
+}
+
+.about-p{
+    line-height: 1.5;
+    margin:5% 20% 5%;
+    font-size: 1.5rem;
+    font-family: 'Superior title';
+}
+.about-btn{
+      border-color: #fd4c84;
+    color: #30475e;
+    font-family: 'Superior title';
+   /* width:15%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    position: absolute;
+    left: 50%;*/
+ 
+}
+.about-btn:hover{
+    color: #dddddd;
+    background-color: #30475e;
+     border-color: #fd4c84;
+
+}
+
+/**********skills************/
+#skills{
+    color: #dddddd;
+    background-color: #30475e;
+     text-align: center;
+     padding: 6% 15%;
+   
+}
+.skills-h{
+    font-family: 'Fraunces', serif;
+    display: inline;
+     border-bottom: 2px solid  #fd4c84;
+    padding-bottom: 0;
+}
+.skills-cont{
+ padding-top: 5%;
+}
+.skills-img{
+   padding-bottom: 3%;
+    color: #fd4c84;
+}
+.skill-box{
+    padding-bottom: 10%;
+}
